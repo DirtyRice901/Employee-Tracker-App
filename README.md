@@ -3,7 +3,7 @@
 ![licenseShield](https://img.shields.io/badge/license-MIT-yellow)
 
 # Description
-This challenge is to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+This challenge is to build a Content Management Systems (CMS) application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -15,12 +15,12 @@ This challenge is to create an application called Note Taker that can be used to
 * [Questions](#questions)
 
 ## Installation
+* [MySQL Workbench](https://www.mysql.com/products/workbench/)
+
 ### The following dependencies required to run the application:
-* [express.js](https://www.npmjs.com/package/express)
+* [MySQL2](https://www.npmjs.com/package/mysql2)
 
 * [Inquirer.js](https://www.npmjs.com/package/inquirer/v/8.2.4)
-
-* [UUID.v4](https://www.npmjs.com/package/uuid)
 
 * [NodeJS](https://nodejs.org/en/download)
 
@@ -28,13 +28,15 @@ This challenge is to create an application called Note Taker that can be used to
 
 
 
+
+
 ## Functionalities
 ### A user can do the following things with this Note Taking App:
-* Display Notes
+* Display Departments
 
-* Add New Notes
+* Display Employees by ID, Salary, Department and Manager ID 
 
-* Update Notes
+* Display roles
 
 
 
@@ -53,12 +55,23 @@ UCF Bootcamp Student Support
 
 
 ## Tests
-```bash
-node server.js
-```
-```bash
-localhost:5500
-```
+### MySQL syntax to input values into the table
+
+![Department Syntax](Images/depo_syntax.png)
+
+![Employee Syntax](Images/employee_syntax.png)
+
+![Role Syntax](Images/role_syntax.png)
+
+### Run execute to validate table
+
+![Alt text](Images/employee_tbl.png)
+
+![Alt text](Images/role_tbl.png)
+
+![Alt text](<Images/Screenshot (22).png>)
+
+
 
 ## Questions
 This project was created by Kevin Rice; for additional questions, reach out to me at the following below:

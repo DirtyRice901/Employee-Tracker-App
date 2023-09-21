@@ -303,7 +303,7 @@ function updateEmployeeRole() {
                             (err, res) => {
                                 if (err) throw err;
                                 console.log(
-                                    `Updated ${emplyee.first_name} ${employee.last_name}'s role to ${role.title} in the database... `
+                                    `Updated ${employee.first_name} ${employee.last_name}'s role to ${role.title} in the database... `
                                 );
                                 start();
 
