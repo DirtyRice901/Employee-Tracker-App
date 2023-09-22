@@ -48,12 +48,12 @@ node server.js
 localhost 3306
 ```
 
-[Demo]https://drive.google.com/file/d/1745QR6F13lWo42XuvGqWtj8pwAH3moX3/view
+[Demo](https://watch.screencastify.com/v/GesqCRQHTfTpyAkoqZiX)
 ## License
 ![MIT](https://img.shields.io/badge/license-MIT-yellow)
 
 ## Contributing:
-UCF Bootcamp Student Support
+UCF Bootcamp Student Support.
 
 
 ## Tests
