@@ -44,7 +44,9 @@ This challenge is to build a Content Management Systems (CMS) application from s
 ```bash
 node server.js
 ```
-![Screenshot](public/assets/image/Note-Taker.png)
+```bash
+localhost 3306
+```
 
 [Demo]https://drive.google.com/file/d/1745QR6F13lWo42XuvGqWtj8pwAH3moX3/view
 ## License
